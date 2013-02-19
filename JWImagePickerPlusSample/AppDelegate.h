@@ -1,6 +1,6 @@
 //
-//  JWAppDelegate.h
-//  JWImagePickerPlus
+//  AppDelegate.h
+//  JWImagePickerPlusSample
 //
 //  Created by Jonah Wallerstein on 2/19/13.
 //  Copyright (c) 2013 Whale Food Games. All rights reserved.

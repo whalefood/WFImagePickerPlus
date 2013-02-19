@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4B6348D16D3809F0043D390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B6348C16D3809F0043D390 /* UIKit.framework */; };
+		B4B6348F16D3809F0043D390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B6348E16D3809F0043D390 /* Foundation.framework */; };
+		B4B6349116D3809F0043D390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B6349016D3809F0043D390 /* CoreGraphics.framework */; };
+		B4B6349716D3809F0043D390 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4B6349516D3809F0043D390 /* InfoPlist.strings */; };
+		B4B6349916D3809F0043D390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B6349816D3809F0043D390 /* main.m */; };
+		B4B6349D16D3809F0043D390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B6349C16D3809F0043D390 /* AppDelegate.m */; };
+		B4B6349F16D3809F0043D390 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B6349E16D3809F0043D390 /* Default.png */; };
+		B4B634A116D3809F0043D390 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B634A016D3809F0043D390 /* Default@2x.png */; };
+		B4B634A316D3809F0043D390 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B634A216D3809F0043D390 /* Default-568h@2x.png */; };
+		B4B634A616D3809F0043D390 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B634A416D3809F0043D390 /* MainStoryboard_iPhone.storyboard */; };
+		B4B634AC16D3809F0043D390 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B634AB16D3809F0043D390 /* SampleViewController.m */; };
+		B4B634B816D3812D0043D390 /* JWImagePickerControllerPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B634B616D3812D0043D390 /* JWImagePickerControllerPlus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4B6348916D3809F0043D390 /* JWImagePickerPlusSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWImagePickerPlusSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B6348C16D3809F0043D390 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4B6348E16D3809F0043D390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4B6349016D3809F0043D390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4B6349416D3809F0043D390 /* JWImagePickerPlusSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWImagePickerPlusSample-Info.plist"; sourceTree = "<group>"; };
+		B4B6349616D3809F0043D390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4B6349816D3809F0043D390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B6349A16D3809F0043D390 /* JWImagePickerPlusSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWImagePickerPlusSample-Prefix.pch"; sourceTree = "<group>"; };
+		B4B6349B16D3809F0043D390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4B6349C16D3809F0043D390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4B6349E16D3809F0043D390 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B4B634A016D3809F0043D390 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B4B634A216D3809F0043D390 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B4B634A516D3809F0043D390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B4B634AA16D3809F0043D390 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		B4B634AB16D3809F0043D390 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		B4B634B616D3812D0043D390 /* JWImagePickerControllerPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWImagePickerControllerPlus.m; path = JWImagePickerPlus/JWImagePickerControllerPlus.m; sourceTree = "<group>"; };
+		B4B634B716D3812D0043D390 /* JWImagePickerControllerPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWImagePickerControllerPlus.h; path = JWImagePickerPlus/JWImagePickerControllerPlus.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B6348616D3809F0043D390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B6348D16D3809F0043D390 /* UIKit.framework in Frameworks */,
+				B4B6348F16D3809F0043D390 /* Foundation.framework in Frameworks */,
+				B4B6349116D3809F0043D390 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4B6348016D3809F0043D390 = {
+			isa = PBXGroup;
+			children = (
+				B4B634B216D380B50043D390 /* JWImagePickerControllerPlus */,
+				B4B6349216D3809F0043D390 /* JWImagePickerPlusSample */,
+				B4B6348B16D3809F0043D390 /* Frameworks */,
+				B4B6348A16D3809F0043D390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B6348A16D3809F0043D390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B6348916D3809F0043D390 /* JWImagePickerPlusSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B6348B16D3809F0043D390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B6348C16D3809F0043D390 /* UIKit.framework */,
+				B4B6348E16D3809F0043D390 /* Foundation.framework */,
+				B4B6349016D3809F0043D390 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4B6349216D3809F0043D390 /* JWImagePickerPlusSample */ = {
+			isa = PBXGroup;
+			children = (
+				B4B6349B16D3809F0043D390 /* AppDelegate.h */,
+				B4B6349C16D3809F0043D390 /* AppDelegate.m */,
+				B4B634A416D3809F0043D390 /* MainStoryboard_iPhone.storyboard */,
+				B4B634AA16D3809F0043D390 /* SampleViewController.h */,
+				B4B634AB16D3809F0043D390 /* SampleViewController.m */,
+				B4B6349316D3809F0043D390 /* Supporting Files */,
+			);
+			path = JWImagePickerPlusSample;
+			sourceTree = "<group>";
+		};
+		B4B6349316D3809F0043D390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B6349416D3809F0043D390 /* JWImagePickerPlusSample-Info.plist */,
+				B4B6349516D3809F0043D390 /* InfoPlist.strings */,
+				B4B6349816D3809F0043D390 /* main.m */,
+				B4B6349A16D3809F0043D390 /* JWImagePickerPlusSample-Prefix.pch */,
+				B4B6349E16D3809F0043D390 /* Default.png */,
+				B4B634A016D3809F0043D390 /* Default@2x.png */,
+				B4B634A216D3809F0043D390 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4B634B216D380B50043D390 /* JWImagePickerControllerPlus */ = {
+			isa = PBXGroup;
+			children = (
+				B4B634B616D3812D0043D390 /* JWImagePickerControllerPlus.m */,
+				B4B634B716D3812D0043D390 /* JWImagePickerControllerPlus.h */,
+			);
+			name = JWImagePickerControllerPlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B6348816D3809F0043D390 /* JWImagePickerPlusSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B634AF16D3809F0043D390 /* Build configuration list for PBXNativeTarget "JWImagePickerPlusSample" */;
+			buildPhases = (
+				B4B6348516D3809F0043D390 /* Sources */,
+				B4B6348616D3809F0043D390 /* Frameworks */,
+				B4B6348716D3809F0043D390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWImagePickerPlusSample;
+			productName = JWImagePickerPlusSample;
+			productReference = B4B6348916D3809F0043D390 /* JWImagePickerPlusSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B6348116D3809F0043D390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Whale Food Games";
+			};
+			buildConfigurationList = B4B6348416D3809F0043D390 /* Build configuration list for PBXProject "JWImagePickerPlusSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4B6348016D3809F0043D390;
+			productRefGroup = B4B6348A16D3809F0043D390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B6348816D3809F0043D390 /* JWImagePickerPlusSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B6348716D3809F0043D390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B6349716D3809F0043D390 /* InfoPlist.strings in Resources */,
+				B4B6349F16D3809F0043D390 /* Default.png in Resources */,
+				B4B634A116D3809F0043D390 /* Default@2x.png in Resources */,
+				B4B634A316D3809F0043D390 /* Default-568h@2x.png in Resources */,
+				B4B634A616D3809F0043D390 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B6348516D3809F0043D390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B6349916D3809F0043D390 /* main.m in Sources */,
+				B4B6349D16D3809F0043D390 /* AppDelegate.m in Sources */,
+				B4B634AC16D3809F0043D390 /* SampleViewController.m in Sources */,
+				B4B634B816D3812D0043D390 /* JWImagePickerControllerPlus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4B6349516D3809F0043D390 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B6349616D3809F0043D390 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4B634A416D3809F0043D390 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B634A516D3809F0043D390 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4B634AD16D3809F0043D390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4B634AE16D3809F0043D390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B634B016D3809F0043D390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWImagePickerPlusSample/JWImagePickerPlusSample-Prefix.pch";
+				INFOPLIST_FILE = "JWImagePickerPlusSample/JWImagePickerPlusSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4B634B116D3809F0043D390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWImagePickerPlusSample/JWImagePickerPlusSample-Prefix.pch";
+				INFOPLIST_FILE = "JWImagePickerPlusSample/JWImagePickerPlusSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B6348416D3809F0043D390 /* Build configuration list for PBXProject "JWImagePickerPlusSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B634AD16D3809F0043D390 /* Debug */,
+				B4B634AE16D3809F0043D390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B634AF16D3809F0043D390 /* Build configuration list for PBXNativeTarget "JWImagePickerPlusSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B634B016D3809F0043D390 /* Debug */,
+				B4B634B116D3809F0043D390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B6348116D3809F0043D390 /* Project object */;
+}
