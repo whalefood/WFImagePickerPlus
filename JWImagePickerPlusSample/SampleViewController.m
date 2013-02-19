@@ -84,15 +84,11 @@
 {
     self.imageView.image = image;
     [self dismissViewControllerAnimated:true completion:nil];
-    id sharedApp = [UIApplication sharedApplication];  // Get around deprecation warnings.
-    [sharedApp setStatusBarHidden:false animated:NO];
 }
 
 - (void)imagePickerControllerDidCancel:(JWImagePickerControllerPlus *)picker
 {
     [self dismissViewControllerAnimated:true completion:nil];
-    id sharedApp = [UIApplication sharedApplication];  // Get around deprecation warnings.
-    [sharedApp setStatusBarHidden:false animated:NO];
 }
 
 #pragma mark -

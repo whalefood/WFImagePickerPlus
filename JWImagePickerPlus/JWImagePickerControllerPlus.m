@@ -162,11 +162,19 @@ int COLS = 4;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     [self.delegate imagePickerControllerDidCancel:self];
+    
+    id sharedApp = [UIApplication sharedApplication];
+    [sharedApp setStatusBarHidden:false animated:true];
+    [sharedApp setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     [self.delegate imagePickerController:self didFinishPickingImage:[info objectForKey:@"UIImagePickerControllerOriginalImage"]];
+    
+    id sharedApp = [UIApplication sharedApplication];
+    [sharedApp setStatusBarHidden:false animated:true];
+    [sharedApp setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
 }
 
 @end
