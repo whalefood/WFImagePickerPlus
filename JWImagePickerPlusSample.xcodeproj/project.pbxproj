@@ -19,6 +19,12 @@
 		B4B634A616D3809F0043D390 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B634A416D3809F0043D390 /* MainStoryboard_iPhone.storyboard */; };
 		B4B634AC16D3809F0043D390 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B634AB16D3809F0043D390 /* SampleViewController.m */; };
 		B4B634B816D3812D0043D390 /* JWImagePickerControllerPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B634B616D3812D0043D390 /* JWImagePickerControllerPlus.m */; };
+		B4B634C016D38BB70043D390 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4B634BA16D38BB70043D390 /* 6.jpg */; };
+		B4B634C116D38BB70043D390 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4B634BB16D38BB70043D390 /* 5.jpg */; };
+		B4B634C216D38BB70043D390 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4B634BC16D38BB70043D390 /* 4.jpg */; };
+		B4B634C316D38BB70043D390 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4B634BD16D38BB70043D390 /* 3.jpg */; };
+		B4B634C416D38BB70043D390 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4B634BE16D38BB70043D390 /* 2.jpg */; };
+		B4B634C516D38BB70043D390 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4B634BF16D38BB70043D390 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,12 @@
 		B4B634AB16D3809F0043D390 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		B4B634B616D3812D0043D390 /* JWImagePickerControllerPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWImagePickerControllerPlus.m; path = JWImagePickerPlus/JWImagePickerControllerPlus.m; sourceTree = "<group>"; };
 		B4B634B716D3812D0043D390 /* JWImagePickerControllerPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWImagePickerControllerPlus.h; path = JWImagePickerPlus/JWImagePickerControllerPlus.h; sourceTree = "<group>"; };
+		B4B634BA16D38BB70043D390 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = Images/6.jpg; sourceTree = "<group>"; };
+		B4B634BB16D38BB70043D390 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = Images/5.jpg; sourceTree = "<group>"; };
+		B4B634BC16D38BB70043D390 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Images/4.jpg; sourceTree = "<group>"; };
+		B4B634BD16D38BB70043D390 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = Images/3.jpg; sourceTree = "<group>"; };
+		B4B634BE16D38BB70043D390 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = Images/2.jpg; sourceTree = "<group>"; };
+		B4B634BF16D38BB70043D390 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = Images/1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 		B4B6349316D3809F0043D390 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4B634B916D38A520043D390 /* Images */,
 				B4B6349416D3809F0043D390 /* JWImagePickerPlusSample-Info.plist */,
 				B4B6349516D3809F0043D390 /* InfoPlist.strings */,
 				B4B6349816D3809F0043D390 /* main.m */,
@@ -118,6 +131,19 @@
 				B4B634B716D3812D0043D390 /* JWImagePickerControllerPlus.h */,
 			);
 			name = JWImagePickerControllerPlus;
+			sourceTree = "<group>";
+		};
+		B4B634B916D38A520043D390 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B4B634BA16D38BB70043D390 /* 6.jpg */,
+				B4B634BB16D38BB70043D390 /* 5.jpg */,
+				B4B634BC16D38BB70043D390 /* 4.jpg */,
+				B4B634BD16D38BB70043D390 /* 3.jpg */,
+				B4B634BE16D38BB70043D390 /* 2.jpg */,
+				B4B634BF16D38BB70043D390 /* 1.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +202,12 @@
 				B4B634A116D3809F0043D390 /* Default@2x.png in Resources */,
 				B4B634A316D3809F0043D390 /* Default-568h@2x.png in Resources */,
 				B4B634A616D3809F0043D390 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B4B634C016D38BB70043D390 /* 6.jpg in Resources */,
+				B4B634C116D38BB70043D390 /* 5.jpg in Resources */,
+				B4B634C216D38BB70043D390 /* 4.jpg in Resources */,
+				B4B634C316D38BB70043D390 /* 3.jpg in Resources */,
+				B4B634C416D38BB70043D390 /* 2.jpg in Resources */,
+				B4B634C516D38BB70043D390 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,12 @@
 
 #import "SampleViewController.h"
 
-@interface SampleViewController ()
+@interface SampleViewController (){
+    NSArray *imageChoices;
+}
 
 @property (nonatomic, retain) JWImagePickerControllerPlus *imagePicker;
 @property (nonatomic, retain) UIActionSheet *imageSourceOptions;
-
 @end
 
 @implementation SampleViewController
@@ -20,6 +21,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //some random images
+    imageChoices = @[@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg",
+                     @"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg",
+                     @"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg",
+                     @"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg",
+                     @"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg",
+                     @"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg"];
     
     //set up image picker
     self.imagePicker = [[JWImagePickerControllerPlus alloc] init];
@@ -48,6 +57,11 @@
 {
     switch (buttonIndex) {
         case 0:
+            if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+            {
+                [[[UIAlertView alloc] initWithTitle:nil message:@"No camera on device" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+                return;
+            }
             self.imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
             break;
         case 1:
@@ -70,24 +84,29 @@
 {
     self.imageView.image = image;
     [self dismissViewControllerAnimated:true completion:nil];
+    id sharedApp = [UIApplication sharedApplication];  // Get around deprecation warnings.
+    [sharedApp setStatusBarHidden:false animated:NO];
 }
 
 - (void)imagePickerControllerDidCancel:(JWImagePickerControllerPlus *)picker
 {
     [self dismissViewControllerAnimated:true completion:nil];
+    id sharedApp = [UIApplication sharedApplication];  // Get around deprecation warnings.
+    [sharedApp setStatusBarHidden:false animated:NO];
 }
 
 #pragma mark -
 #pragma mark JWImagePickerControllerGalleryDataSource implementation
 
+
 -(UIImage *)imagePickerController: (JWImagePickerControllerPlus *)picker galleryImageAtIndex:(NSUInteger) index
 {
-    
+    return [UIImage imageNamed:[imageChoices objectAtIndex:index]];
 }
 
 -(int)numberOfImagesInGalleryForImagePicker: (JWImagePickerControllerPlus *)picker
 {
-    
+   return [imageChoices count];
 }
 
 @end

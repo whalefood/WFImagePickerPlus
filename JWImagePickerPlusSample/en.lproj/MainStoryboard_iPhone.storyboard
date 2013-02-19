@@ -25,9 +25,9 @@
                                     <action selector="ChooseImage:" destination="2" eventType="touchUpInside" id="rLw-TZ-Ja8"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PB0-bC-AUp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="PB0-bC-AUp">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="353" id="Eq3-VV-txV"/>
+                                    <constraint firstAttribute="height" constant="360" id="IHh-NT-QS2"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -35,7 +35,7 @@
                         <constraints>
                             <constraint firstItem="PB0-bC-AUp" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6QG-Pc-K3x"/>
                             <constraint firstAttribute="trailing" secondItem="c7Y-0f-6Zf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="AON-ae-fnb"/>
-                            <constraint firstAttribute="bottom" secondItem="c7Y-0f-6Zf" secondAttribute="bottom" constant="80" id="Is7-Xj-9OE"/>
+                            <constraint firstAttribute="bottom" secondItem="c7Y-0f-6Zf" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="NU9-Ze-3DH"/>
                             <constraint firstItem="c7Y-0f-6Zf" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="WWe-Wy-ZTQ"/>
                             <constraint firstAttribute="trailing" secondItem="PB0-bC-AUp" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="jnt-qf-Y02"/>
                             <constraint firstItem="PB0-bC-AUp" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="qYm-hh-r0z"/>
