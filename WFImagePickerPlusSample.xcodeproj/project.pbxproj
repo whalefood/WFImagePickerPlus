@@ -44,8 +44,8 @@
 		B4B634A516D3809F0043D390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B4B634AA16D3809F0043D390 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
 		B4B634AB16D3809F0043D390 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
-		B4B634B616D3812D0043D390 /* WFImagePickerControllerPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFImagePickerControllerPlus.m; path = JWImagePickerPlus/WFImagePickerControllerPlus.m; sourceTree = "<group>"; };
-		B4B634B716D3812D0043D390 /* WFImagePickerControllerPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFImagePickerControllerPlus.h; path = JWImagePickerPlus/WFImagePickerControllerPlus.h; sourceTree = "<group>"; };
+		B4B634B616D3812D0043D390 /* WFImagePickerControllerPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFImagePickerControllerPlus.m; path = WFImagePickerPlus/WFImagePickerControllerPlus.m; sourceTree = "<group>"; };
+		B4B634B716D3812D0043D390 /* WFImagePickerControllerPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFImagePickerControllerPlus.h; path = WFImagePickerPlus/WFImagePickerControllerPlus.h; sourceTree = "<group>"; };
 		B4B634BA16D38BB70043D390 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = Images/6.jpg; sourceTree = "<group>"; };
 		B4B634BB16D38BB70043D390 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = Images/5.jpg; sourceTree = "<group>"; };
 		B4B634BC16D38BB70043D390 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Images/4.jpg; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				B4B6349316D3809F0043D390 /* Supporting Files */,
 			);
 			name = WFImagePickerPlusSample;
-			path = JWImagePickerPlusSample;
+			path = WFImagePickerPlusSample;
 			sourceTree = "<group>";
 		};
 		B4B6349316D3809F0043D390 /* Supporting Files */ = {
@@ -163,7 +163,7 @@
 			dependencies = (
 			);
 			name = WFImagePickerPlusSample;
-			productName = JWImagePickerPlusSample;
+			productName = WFImagePickerPlusSample;
 			productReference = B4B6348916D3809F0043D390 /* WFImagePickerPlusSample.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -310,8 +310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JWImagePickerPlusSample/WFImagePickerPlusSample-Prefix.pch";
-				INFOPLIST_FILE = "JWImagePickerPlusSample/WFImagePickerPlusSample-Info.plist";
+				GCC_PREFIX_HEADER = "WFImagePickerPlusSample/WFImagePickerPlusSample-Prefix.pch";
+				INFOPLIST_FILE = "WFImagePickerPlusSample/WFImagePickerPlusSample-Info.plist";
 				PRODUCT_NAME = WFImagePickerPlusSample;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -322,8 +322,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JWImagePickerPlusSample/WFImagePickerPlusSample-Prefix.pch";
-				INFOPLIST_FILE = "JWImagePickerPlusSample/WFImagePickerPlusSample-Info.plist";
+				GCC_PREFIX_HEADER = "WFImagePickerPlusSample/WFImagePickerPlusSample-Prefix.pch";
+				INFOPLIST_FILE = "WFImagePickerPlusSample/WFImagePickerPlusSample-Info.plist";
 				PRODUCT_NAME = WFImagePickerPlusSample;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

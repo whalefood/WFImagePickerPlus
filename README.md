@@ -1,4 +1,4 @@
-# JWImagePickerPlus
+# WFImagePickerPlus
 
 A simple extention to the UIImagePickerController to allow an extra "gallery" source type.
 The gallery is made to look similar to Apple's interface for picking a photo from your library, but allows the program to specify the image options.
@@ -12,11 +12,11 @@ Licence: MIT-Licence
 
 The sample project should be mostly self explanitory.
 
-There are two protocols involved: `JWImagePickerControllerGalleryDataSource` and `JWImagePickerControllerPlusDelegate`.
+There are two protocols involved: `WFImagePickerControllerGalleryDataSource` and `WFImagePickerControllerPlusDelegate`.
 
-Implementing `JWImagePickerControllerPlusDelegate` allows your class to respond to events when an image is picked or the user cancels.
+Implementing `WFImagePickerControllerPlusDelegate` allows your class to respond to events when an image is picked or the user cancels.
 
-Implementing `JWImagePickerControllerGalleryDataSource` allows you to specify how many and which images are shown in the gallery.
+Implementing `WFImagePickerControllerGalleryDataSource` allows you to specify how many and which images are shown in the gallery.
 
 ## Acknowledgements
 
