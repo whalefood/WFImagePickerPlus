@@ -6,10 +6,10 @@
 //
 //
 
-#import "JWImagePickerControllerPlus.h"
+#import "WFImagePickerControllerPlus.h"
 
 
-@interface JWImagePickerControllerPlus ()
+@interface WFImagePickerControllerPlus ()
 
 @property (nonatomic, retain) UIImagePickerController* uiImagePicker;
 @property (nonatomic, retain) UIView *galleryView;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation JWImagePickerControllerPlus
+@implementation WFImagePickerControllerPlus
 
 float PADDING_TOP = 44;
 float PADDING = 4;
@@ -35,7 +35,7 @@ int COLS = 4;
     return self;
 }
 
--(void)setGalleryDataSource:(id<JWImagePickerControllerGalleryDataSource>)dataSource
+-(void)setGalleryDataSource:(id<WFImagePickerControllerGalleryDataSource>)dataSource
 {
     _galleryDataSource = dataSource;
     self.galleryViewIsCurrent = false;

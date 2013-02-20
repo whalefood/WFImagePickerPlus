@@ -12,7 +12,7 @@
     NSArray *imageChoices;
 }
 
-@property (nonatomic, retain) JWImagePickerControllerPlus *imagePicker;
+@property (nonatomic, retain) WFImagePickerControllerPlus *imagePicker;
 @property (nonatomic, retain) UIActionSheet *imageSourceOptions;
 @end
 
@@ -31,7 +31,7 @@
                      @"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg"];
     
     //set up image picker
-    self.imagePicker = [[JWImagePickerControllerPlus alloc] init];
+    self.imagePicker = [[WFImagePickerControllerPlus alloc] init];
     self.imagePicker.galleryDataSource = self;
     self.imagePicker.delegate =self;
     self.imagePicker.galleryTitle = @"Pick an Image";
@@ -80,13 +80,13 @@
 #pragma mark -
 #pragma mark JWImagePickerControllerPlusDelegate implementation
 
--(void)imagePickerController:(JWImagePickerControllerPlus *)picker didFinishPickingImage: (UIImage *)image
+-(void)imagePickerController:(WFImagePickerControllerPlus *)picker didFinishPickingImage: (UIImage *)image
 {
     self.imageView.image = image;
     [self dismissViewControllerAnimated:true completion:nil];
 }
 
-- (void)imagePickerControllerDidCancel:(JWImagePickerControllerPlus *)picker
+- (void)imagePickerControllerDidCancel:(WFImagePickerControllerPlus *)picker
 {
     [self dismissViewControllerAnimated:true completion:nil];
 }
@@ -95,12 +95,12 @@
 #pragma mark JWImagePickerControllerGalleryDataSource implementation
 
 
--(UIImage *)imagePickerController: (JWImagePickerControllerPlus *)picker galleryImageAtIndex:(NSUInteger) index
+-(UIImage *)imagePickerController: (WFImagePickerControllerPlus *)picker galleryImageAtIndex:(NSUInteger) index
 {
     return [UIImage imageNamed:[imageChoices objectAtIndex:index]];
 }
 
--(int)numberOfImagesInGalleryForImagePicker: (JWImagePickerControllerPlus *)picker
+-(int)numberOfImagesInGalleryForImagePicker: (WFImagePickerControllerPlus *)picker
 {
    return [imageChoices count];
 }

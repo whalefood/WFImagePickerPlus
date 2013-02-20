@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JWImagePickerControllerPlus.h"
+#import "WFImagePickerControllerPlus.h"
 
-@interface SampleViewController : UIViewController<JWImagePickerControllerGalleryDataSource, JWImagePickerControllerPlusDelegate, UIActionSheetDelegate>
+@interface SampleViewController : UIViewController<WFImagePickerControllerGalleryDataSource, WFImagePickerControllerPlusDelegate, UIActionSheetDelegate>
 
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 
