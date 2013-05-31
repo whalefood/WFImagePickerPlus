@@ -106,7 +106,7 @@ int COLS = 4;
     if(self.galleryDataSource)
     {
         int numImages = [self.galleryDataSource numberOfImagesInGalleryForImagePicker:self];
-        int contentHeight = PADDING_TOP + ceil(numImages/COLS)*(imgSize + PADDING) + PADDING;
+        int contentHeight = PADDING_TOP + ceil((double)numImages/COLS)*(imgSize + PADDING) + PADDING;
         if(contentHeight < self.view.frame.size.height)
             contentHeight = self.view.frame.size.height;
         imageContainer.contentSize = CGSizeMake(self.view.frame.size.width,contentHeight);
